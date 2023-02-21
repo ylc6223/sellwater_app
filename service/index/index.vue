@@ -1,0 +1,22 @@
+<template>
+	<view>
+		业务管理
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "基本管理",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "xfab-card": "/components/xfab-card/xfab-card"
+  }
+}

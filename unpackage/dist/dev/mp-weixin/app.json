@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "base/index/index",
+    "service/index/index",
+    "chart/index/index",
+    "pages/profile/profile"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "XFAB",
+    "navigationBarBackgroundColor": "#3498db",
+    "backgroundColor": "#F2F2F7",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#34495e",
+    "selectedColor": "#3498db",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "base/index/index",
+        "text": "基础",
+        "iconPath": "static/images/base.png",
+        "selectedIconPath": "static/images/abase.png"
+      },
+      {
+        "pagePath": "service/index/index",
+        "text": "业务",
+        "iconPath": "static/images/IC卡.png",
+        "selectedIconPath": "static/images/aIC卡.png"
+      },
+      {
+        "pagePath": "chart/index/index",
+        "text": "报表",
+        "iconPath": "static/images/bar-chart.png",
+        "selectedIconPath": "static/images/abar-chart.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "设置",
+        "iconPath": "static/images/setup.png",
+        "selectedIconPath": "static/images/asetup.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,99 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// },
+		{
+			"path": "base/index/index",
+			"style": {
+				"navigationBarTitleText": "基本管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "service/index/index",
+			"style": {
+				"navigationBarTitleText": "业务管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "chart/index/index",
+			"style": {
+				"navigationBarTitleText": "报表管理",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "系统设置",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"subPackages": [{
+			"root": "base",
+			"name": "base",
+			"pages": []
+		},
+		{
+			"root": "service",
+			"name": "service",
+			"pages": []
+
+		},
+		{
+			"root": "chart",
+			"name": "chart",
+			"pages": []
+		}
+	],
+	"tabBar": {
+		"color": "#34495e",
+		"selectedColor": "#3498db",
+		"backgroundColor": "#FFF",
+		"list": [{
+				"pagePath": "base/index/index",
+				"text": "基础",
+				"iconPath": "static/images/base.png",
+				"selectedIconPath": "static/images/abase.png"
+			},
+			{
+				"pagePath": "service/index/index",
+				"text": "业务",
+				"iconPath": "static/images/IC卡.png",
+				"selectedIconPath": "static/images/aIC卡.png"
+			},
+			{
+				"pagePath": "chart/index/index",
+				"text": "报表",
+				"iconPath": "static/images/bar-chart.png",
+				"selectedIconPath": "static/images/abar-chart.png"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "设置",
+				"iconPath": "static/images/setup.png",
+				"selectedIconPath": "static/images/asetup.png"
+			}
+		]
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"xfab-(.*)": "@/components/xfab-$1/xfab-$1.vue"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "XFAB",
+		"navigationBarBackgroundColor": "#3498db",
+		"backgroundColor": "#F2F2F7",
+		"enablePullDownRefresh": true
+	},
+	"uniIdRouter": {}
+}
