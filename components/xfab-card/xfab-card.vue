@@ -46,10 +46,10 @@
 				type: Boolean,
 				default: false
 			},
-			// index: {
-			// 	type: Number,
-			// 	default: 0
-			// }
+			index: {
+				type: Number,
+				default: 0
+			}
 		},
 		data() {
 			return {
@@ -116,6 +116,7 @@
 	.xfab-card-body {
 		font-size: 32rpx;
 		// color: #262b3a;
+		padding: 10rpx 0;
 		color: #596d96;
 		box-sizing: border-box;
 	}

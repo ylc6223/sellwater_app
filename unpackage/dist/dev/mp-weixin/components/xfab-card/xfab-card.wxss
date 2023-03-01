@@ -72,6 +72,7 @@
 }
 .xfab-card-body.data-v-7293323c {
   font-size: 32rpx;
+  padding: 10rpx 0;
   color: #596d96;
   box-sizing: border-box;
 }

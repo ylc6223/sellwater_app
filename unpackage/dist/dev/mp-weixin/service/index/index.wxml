@@ -1,1 +1,1 @@
-<view>业务管理</view>
+<view class="container data-v-fedaed46">业务<tui-tabbar vue-id="dc81b96e-1" class="data-v-fedaed46" bind:__l="__l"></tui-tabbar></view>

@@ -1,1 +1,1 @@
-<view>报表管理</view>
+<view class="container data-v-00287306">报表<tui-tabbar vue-id="04e66ec0-1" class="data-v-00287306" bind:__l="__l"></tui-tabbar></view>

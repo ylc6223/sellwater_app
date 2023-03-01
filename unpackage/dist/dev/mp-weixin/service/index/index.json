@@ -1,5 +1,7 @@
 {
-  "navigationBarTitleText": "业务管理",
+  "navigationBarTitleText": "",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "tui-tabbar": "/components/thorui/tui-tabbar/tui-tabbar"
+  }
 }
