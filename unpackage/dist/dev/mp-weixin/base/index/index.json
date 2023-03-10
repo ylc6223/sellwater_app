@@ -1,9 +1,0 @@
-{
-  "navigationBarTitleText": "",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "tui-icon": "/components/thorui/tui-icon/tui-icon",
-    "xfab-card": "/components/xfab-card/xfab-card",
-    "tui-tabbar": "/components/thorui/tui-tabbar/tui-tabbar"
-  }
-}

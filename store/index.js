@@ -7,7 +7,7 @@ const store = new Vuex.Store({
 	state: {
 		tabBar: [{
 
-				"pagePath": "base/index/index",
+				"pagePath": "subpackage/base/index/index",
 				"text": "首页",
 				"iconPath": "/static/images/home.svg",
 				"selectedIconPath": "/static/images/ahome.svg",
@@ -18,7 +18,7 @@ const store = new Vuex.Store({
 			},
 			{
 
-				"pagePath": "service/index/index",
+				"pagePath": "subpackage/service/index/index",
 				"text": "业务",
 				"iconPath": "/static/images/card.svg",
 				"selectedIconPath": "/static/images/acard.svg",
@@ -38,7 +38,7 @@ const store = new Vuex.Store({
 				"verify": true
 			},
 			{
-				"pagePath": "chart/index/index",
+				"pagePath": "subpackage/chart/index/index",
 				"text": "报表",
 				"iconPath": "/static/images/chart-bar.svg",
 				"selectedIconPath": "/static/images/achart-bar.svg",

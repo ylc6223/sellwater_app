@@ -4,7 +4,7 @@ page{
 .container{
 	max-width: 100%;
 	min-height: 100vh;
-	padding: 30rpx 0;
+	box-sizing: border-box;
 }
 .p-20{
 	padding: 20rpx;

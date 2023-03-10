@@ -1,8 +1,8 @@
 {
   "pages": [
-    "base/index/index",
-    "service/index/index",
-    "chart/index/index",
+    "subpackage/base/index/index",
+    "subpackage/service/index/index",
+    "subpackage/chart/index/index",
     "pages/profile/profile",
     "pages/chat/chat",
     "pages/recharge/recharge"
@@ -21,11 +21,11 @@
     "backgroundColor": "#FFF",
     "list": [
       {
-        "pagePath": "base/index/index",
+        "pagePath": "subpackage/base/index/index",
         "text": ""
       },
       {
-        "pagePath": "service/index/index",
+        "pagePath": "subpackage/service/index/index",
         "text": ""
       },
       {
@@ -33,7 +33,7 @@
         "text": ""
       },
       {
-        "pagePath": "chart/index/index",
+        "pagePath": "subpackage/chart/index/index",
         "text": ""
       },
       {

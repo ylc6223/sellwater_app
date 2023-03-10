@@ -1,21 +1,21 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "base/index/index",
+			"path": "subpackage/base/index/index",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
 		},
 		{
-			"path": "service/index/index",
+			"path": "subpackage/service/index/index",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
 			}
 		},
 		{
-			"path": "chart/index/index",
+			"path": "subpackage/chart/index/index",
 			"style": {
 				"navigationBarTitleText": "",
 				"enablePullDownRefresh": false
@@ -24,9 +24,11 @@
 			"path": "pages/profile/profile",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#FFFFFF"
 			}
-
 		}, {
 			"path": "pages/chat/chat",
 			"style": {
@@ -65,11 +67,11 @@
 		"selectedColor": "#3498db",
 		"backgroundColor": "#FFF",
 		"list": [{
-				"pagePath": "base/index/index",
+				"pagePath": "subpackage/base/index/index",
 				"text": ""
 			},
 			{
-				"pagePath": "service/index/index",
+				"pagePath": "subpackage/service/index/index",
 				"text": ""
 			},
 			{
@@ -77,7 +79,7 @@
 				"text": ""
 			},
 			{
-				"pagePath": "chart/index/index",
+				"pagePath": "subpackage/chart/index/index",
 				"text": ""
 			},
 			{

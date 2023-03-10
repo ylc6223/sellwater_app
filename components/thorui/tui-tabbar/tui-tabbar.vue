@@ -87,7 +87,6 @@
 		methods: {
 			...mapMutations(['changeTabBar']),
 			tabbarSwitch(index, hump, pagePath, verify) {
-				console.log(index, hump, pagePath, verify);
 				if (verify) {
 					this.changeTabBar({
 						index: index
