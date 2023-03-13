@@ -11,7 +11,7 @@ const tui = {
 		//return 'https://uat.thorui.cn'
 		// return 'https://prod.thorui.cn'
 	},
-	toast: function(text, duration, success) {
+	toast: function({text, duration, success}) {
 		uni.showToast({
 			// #ifndef MP-ALIPAY
 			duration: duration || 2000,
@@ -20,7 +20,7 @@ const tui = {
 			icon: success ? 'success' : 'none'
 		})
 	},
-	modal: function(title, content, showCancel, callback, confirmColor, confirmText) {
+	modal: function({title, content, showCancel, callback, confirmColor, confirmText}) {
 		uni.showModal({
 			title: title || '提示',
 			content: content,

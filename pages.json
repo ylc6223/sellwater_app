@@ -48,7 +48,9 @@
 	"subPackages": [{
 			"root": "base",
 			"name": "base",
-			"pages": []
+			"pages": [
+				"/bluetooth-test/bluetooth-test"
+			]
 		},
 		{
 			"root": "service",

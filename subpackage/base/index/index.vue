@@ -35,7 +35,7 @@
 					<view>
 						<view class="menu-list flex flex-wrap">
 							<view class="menu-item flex flex-col items-center" v-for="(item,index) in menuItems"
-								:key="index">
+								:key="index" @click="navto">
 								<view class="menu-item_box flex items-center justify-evenly">
 									<tui-icon name="about" color="#FFF"></tui-icon>
 								</view>
@@ -85,7 +85,8 @@
 						text: "补卡"
 					},
 					{
-						text: "升级权益"
+						text: "蓝牙测试",
+						url:"/bluetooth-test/bluetooth-test"
 					},
 				]
 
@@ -105,6 +106,14 @@
 				// 更新搜索框背景色的透明度
 				this.bgColor = `rgba(86, 119, 252, ${opacity})`;
 			},
+			navto(){
+				uni.navigateTo({
+					url: '/subpackage/base/bluetooth/bluetooth',
+					fail(e) {
+						console.log(e);
+					}
+				})
+			}
 		},
 		onShow() {
 			// 监听页面显示事件

@@ -43,38 +43,6 @@
 				</view>
 			</view>
 		</view>
-		<!-- <view class="header-bg">
-			<view class="header flex justify-center">
-				<image class="avatar" src="/static/images/avatar.svg" />
-				<view v-if="isLogin" class="flex flex-col">
-					<text class="username">John Doe</text>
-					<text class="email">johndoe@example.com</text>
-				</view>
-				<view v-else class="flex justify-center items-center">
-					<text>立即登录</text>
-				</view>
-			</view>
-			<view class="menu-list flex justify-center flex-wrap">
-				<view class="menu-item flex flex-col items-center">
-					<view class="menu-item_box flex items-center justify-evenly">
-						<tui-icon name="friendadd" color="#FFF"></tui-icon>
-					</view>
-					<text>开户</text>
-				</view>
-				<view class="menu-item flex flex-col items-center">
-					<view class="menu-item_box flex items-center justify-evenly">
-						<tui-icon name="delete" color="#FFF"></tui-icon>
-					</view>
-					<text>销户</text>
-				</view>
-				<view class="menu-item flex flex-col items-center">
-					<view class="menu-item_box flex items-center justify-evenly">
-						<tui-icon name="evaluate" color="#FFF"></tui-icon>
-					</view>
-					<text>补卡</text>
-				</view>
-			</view>
-		</view> -->
 		<xfab-card class="absolute w-full" style="margin-top: -40rpx;">
 			<tui-list-view>
 				<tui-list-cell :arrow="true">
